@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import CldImage from '@/components/CldImage';
 import Editor from '@monaco-editor/react';
-import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
+import { LiveProvider, LivePreview } from "react-live";
 
 interface PlaygroundProps {
   code: string;
@@ -18,7 +18,7 @@ const Playground = ({ code: defaultCode }: PlaygroundProps ) => {
     <div className="bg-white h-screen grid grid-cols-2">
       <div className="bg-[#1e1e1e] py-6">
         <Editor
-          height="90vh"
+          className="h-screen"
           defaultLanguage="javascript"
           defaultValue={code.trim()}
           theme="vs-dark"

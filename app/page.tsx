@@ -5,6 +5,15 @@ export default function Home() {
     <main>
       <Playground
         code={`
+
+// Available Images:
+// - my-code-playground/galaxy
+// - my-code-playground/turtle
+// - my-code-playground/mario
+
+// Try some transformations:
+// https://next.cloudinary.dev/cldimage/examples
+
 <CldImage
   width="960"
   height="600"
