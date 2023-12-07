@@ -8,7 +8,7 @@ export default function Home() {
 <CldImage
   width="960"
   height="600"
-  src="images/galaxy"
+  src="my-code-playground/galaxy"
   sizes="100vw"
   alt=""
 />
