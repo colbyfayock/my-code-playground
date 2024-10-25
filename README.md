@@ -2,7 +2,7 @@
 
 Demo for tutorial Build a Code Playground Text Editor with Preview in React
 
-📺 YouTube: Coming Soon
+📺 YouTube: https://www.youtube.com/watch?v=G6TlV-Z-tMU
 
 ## More tutorials and walkthroughs
 
